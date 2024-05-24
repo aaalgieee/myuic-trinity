@@ -1,5 +1,5 @@
 <div align="center">
-  <p><img width="20%" src="./myuic-neo-webresources/icon-square.jpg" /></p>
+  <p><img width="20%" src="./_myuic-neo-web/resources/icon-square.jpg" /></p>
   <h1>MyUIC Neo</h1>
   <p>An "unofficial", third-party student portal website for UICians.</p>
   <p><img src="https://pbs.twimg.com/media/FO8ZdXvUYAEpgGu?format=jpg&name=large" /></p>
