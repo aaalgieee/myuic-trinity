@@ -5,7 +5,7 @@ const { execSync } = require("child_process");
 const { parse: parseEnv } = require('dotenv');
 const stringifyEnv = require('dotenv-stringify');
 
-const package_json = require('./package.json');
+const package_json = require('../package.json');
 
 const info = {
     APP_VERSION_NAME: (() => {
