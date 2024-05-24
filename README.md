@@ -10,7 +10,6 @@
 
 
 
-[![GitHub Follow](https://img.shields.io/github/followers/nedpals?style=social&logo=github)](https://github.com/nedpals)
 [![GitHub Follow](https://img.shields.io/github/followers/aaalgieee?style=social&logo=github)](https://github.com/aaalgieee)
 </div>
 
