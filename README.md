@@ -9,16 +9,15 @@
 [Feedback Form](https://forms.gle/XnE2XuEGi9FdcYt5A)
 
 
-![Vercel](https://vercelbadge.vercel.app/api/nedpals/myuic-neo)
-[![mirror](https://github.com/nedpals/myuic-neo/actions/workflows/android-build.yml/badge.svg)](https://github.com/nedpals/myuic-neo/actions/workflows/ci.yml)
-[![Twitter Follow](https://img.shields.io/twitter/follow/npned?style=social&logo=twitter)](https://twitter.com/npned)
+
 [![GitHub Follow](https://img.shields.io/github/followers/nedpals?style=social&logo=github)](https://github.com/nedpals)
+[![GitHub Follow](https://img.shields.io/github/followers/aaalgieee?style=social&logo=github)](https://github.com/aaalgieee)
 </div>
 
 ## Description
-MyUIC Neo is a student-made implementation of MyUIC: the student portal web application of the [University of the Immaculate Conception](https://uic.edu.ph). The focus of MyUIC Neo is to provide **better user experience** and **better user interface** for UIC students by using modern web standards and design techniques.
+MyUIC Trinity is a student-made forked from [MyUIC Neo](github.com/nedpals/myuic-neo) implementation of MyUIC: the student portal web application of the [University of the Immaculate Conception](https://uic.edu.ph). The focus of MyUIC Trinity is to provide **better user experience** and **better user interface** for UIC students by using modern wonders of mobile and design techniques.
 
-It is both a [single-page application (SPA)](https://en.wikipedia.org/wiki/Single-page_application) and a [progressive web application (PWA)](https://web.dev/what-are-pwas/) for smooth native-app like experience on any device whether be on the phone, on the tablet, or on the desktop.
+Previously, this is a [single-page application (SPA)](https://en.wikipedia.org/wiki/Single-page_application) and a [progressive web application (PWA)](https://web.dev/what-are-pwas/) for smooth native-app like experience on any device whether be on the phone, on the tablet, or on the desktop. In this forked this app will be solely a iOS Application and a Android Application (future plans)
 
 ## Why?
 Information through online platforms became the norm after the start of the online class mandate. Thus, any data related to financial payments, student grades were heavily relied on the MyUIC student portal. As a student myself of the school along with others, the experience was not good and the information it provides does not utilize it very well to the point that to get the right information, you must go to a series of links which should be exposed directly in the first place.
