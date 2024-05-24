@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  App
+//  myuic-trinity
 //
 //  Created by Al Gabriel on 5/24/24.
 //

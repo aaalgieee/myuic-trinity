@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		021A22FD2BFFC82400684BBF /* AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021A22FC2BFFC82400684BBF /* AppApp.swift */; };
-		021A22FF2BFFC82400684BBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021A22FE2BFFC82400684BBF /* ContentView.swift */; };
-		021A23012BFFC82600684BBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 021A23002BFFC82600684BBF /* Assets.xcassets */; };
-		021A23042BFFC82600684BBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 021A23032BFFC82600684BBF /* Preview Assets.xcassets */; };
+		0220EF202C007456002DEC1F /* myuic_trinityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0220EF1F2C007456002DEC1F /* myuic_trinityApp.swift */; };
+		0220EF222C007456002DEC1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0220EF212C007456002DEC1F /* ContentView.swift */; };
+		0220EF242C007458002DEC1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0220EF232C007458002DEC1F /* Assets.xcassets */; };
+		0220EF272C007458002DEC1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0220EF262C007458002DEC1F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		021A22F92BFFC82400684BBF /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		021A22FC2BFFC82400684BBF /* AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppApp.swift; sourceTree = "<group>"; };
-		021A22FE2BFFC82400684BBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		021A23002BFFC82600684BBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		021A23032BFFC82600684BBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0220EF1C2C007456002DEC1F /* myuic-trinity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myuic-trinity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0220EF1F2C007456002DEC1F /* myuic_trinityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myuic_trinityApp.swift; sourceTree = "<group>"; };
+		0220EF212C007456002DEC1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0220EF232C007458002DEC1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0220EF262C007458002DEC1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		021A22F62BFFC82400684BBF /* Frameworks */ = {
+		0220EF192C007456002DEC1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		021A22F02BFFC82400684BBF = {
+		0220EF132C007456002DEC1F = {
 			isa = PBXGroup;
 			children = (
-				021A22FB2BFFC82400684BBF /* App */,
-				021A22FA2BFFC82400684BBF /* Products */,
+				0220EF1E2C007456002DEC1F /* myuic-trinity */,
+				0220EF1D2C007456002DEC1F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		021A22FA2BFFC82400684BBF /* Products */ = {
+		0220EF1D2C007456002DEC1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				021A22F92BFFC82400684BBF /* App.app */,
+				0220EF1C2C007456002DEC1F /* myuic-trinity.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		021A22FB2BFFC82400684BBF /* App */ = {
+		0220EF1E2C007456002DEC1F /* myuic-trinity */ = {
 			isa = PBXGroup;
 			children = (
-				021A22FC2BFFC82400684BBF /* AppApp.swift */,
-				021A22FE2BFFC82400684BBF /* ContentView.swift */,
-				021A23002BFFC82600684BBF /* Assets.xcassets */,
-				021A23022BFFC82600684BBF /* Preview Content */,
+				0220EF1F2C007456002DEC1F /* myuic_trinityApp.swift */,
+				0220EF212C007456002DEC1F /* ContentView.swift */,
+				0220EF232C007458002DEC1F /* Assets.xcassets */,
+				0220EF252C007458002DEC1F /* Preview Content */,
 			);
-			path = App;
+			path = "myuic-trinity";
 			sourceTree = "<group>";
 		};
-		021A23022BFFC82600684BBF /* Preview Content */ = {
+		0220EF252C007458002DEC1F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				021A23032BFFC82600684BBF /* Preview Assets.xcassets */,
+				0220EF262C007458002DEC1F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		021A22F82BFFC82400684BBF /* App */ = {
+		0220EF1B2C007456002DEC1F /* myuic-trinity */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 021A23072BFFC82600684BBF /* Build configuration list for PBXNativeTarget "App" */;
+			buildConfigurationList = 0220EF2A2C007458002DEC1F /* Build configuration list for PBXNativeTarget "myuic-trinity" */;
 			buildPhases = (
-				021A22F52BFFC82400684BBF /* Sources */,
-				021A22F62BFFC82400684BBF /* Frameworks */,
-				021A22F72BFFC82400684BBF /* Resources */,
+				0220EF182C007456002DEC1F /* Sources */,
+				0220EF192C007456002DEC1F /* Frameworks */,
+				0220EF1A2C007456002DEC1F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = App;
-			productName = App;
-			productReference = 021A22F92BFFC82400684BBF /* App.app */;
+			name = "myuic-trinity";
+			productName = "myuic-trinity";
+			productReference = 0220EF1C2C007456002DEC1F /* myuic-trinity.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		021A22F12BFFC82400684BBF /* Project object */ = {
+		0220EF142C007456002DEC1F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					021A22F82BFFC82400684BBF = {
+					0220EF1B2C007456002DEC1F = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 021A22F42BFFC82400684BBF /* Build configuration list for PBXProject "App" */;
+			buildConfigurationList = 0220EF172C007456002DEC1F /* Build configuration list for PBXProject "myuic-trinity" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 021A22F02BFFC82400684BBF;
-			productRefGroup = 021A22FA2BFFC82400684BBF /* Products */;
+			mainGroup = 0220EF132C007456002DEC1F;
+			productRefGroup = 0220EF1D2C007456002DEC1F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				021A22F82BFFC82400684BBF /* App */,
+				0220EF1B2C007456002DEC1F /* myuic-trinity */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		021A22F72BFFC82400684BBF /* Resources */ = {
+		0220EF1A2C007456002DEC1F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				021A23042BFFC82600684BBF /* Preview Assets.xcassets in Resources */,
-				021A23012BFFC82600684BBF /* Assets.xcassets in Resources */,
+				0220EF272C007458002DEC1F /* Preview Assets.xcassets in Resources */,
+				0220EF242C007458002DEC1F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		021A22F52BFFC82400684BBF /* Sources */ = {
+		0220EF182C007456002DEC1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				021A22FF2BFFC82400684BBF /* ContentView.swift in Sources */,
-				021A22FD2BFFC82400684BBF /* AppApp.swift in Sources */,
+				0220EF222C007456002DEC1F /* ContentView.swift in Sources */,
+				0220EF202C007456002DEC1F /* myuic_trinityApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		021A23052BFFC82600684BBF /* Debug */ = {
+		0220EF282C007458002DEC1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		021A23062BFFC82600684BBF /* Release */ = {
+		0220EF292C007458002DEC1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,14 +264,15 @@
 			};
 			name = Release;
 		};
-		021A23082BFFC82600684BBF /* Debug */ = {
+		0220EF2B2C007458002DEC1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"myuic-trinity/Preview Content\"";
+				DEVELOPMENT_TEAM = A2JKADPAG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -284,7 +285,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = aaalgieee.App;
+				PRODUCT_BUNDLE_IDENTIFIER = "aaalgieee.myuic-trinity";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -292,14 +293,15 @@
 			};
 			name = Debug;
 		};
-		021A23092BFFC82600684BBF /* Release */ = {
+		0220EF2C2C007458002DEC1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"myuic-trinity/Preview Content\"";
+				DEVELOPMENT_TEAM = A2JKADPAG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -312,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = aaalgieee.App;
+				PRODUCT_BUNDLE_IDENTIFIER = "aaalgieee.myuic-trinity";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		021A22F42BFFC82400684BBF /* Build configuration list for PBXProject "App" */ = {
+		0220EF172C007456002DEC1F /* Build configuration list for PBXProject "myuic-trinity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				021A23052BFFC82600684BBF /* Debug */,
-				021A23062BFFC82600684BBF /* Release */,
+				0220EF282C007458002DEC1F /* Debug */,
+				0220EF292C007458002DEC1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		021A23072BFFC82600684BBF /* Build configuration list for PBXNativeTarget "App" */ = {
+		0220EF2A2C007458002DEC1F /* Build configuration list for PBXNativeTarget "myuic-trinity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				021A23082BFFC82600684BBF /* Debug */,
-				021A23092BFFC82600684BBF /* Release */,
+				0220EF2B2C007458002DEC1F /* Debug */,
+				0220EF2C2C007458002DEC1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 021A22F12BFFC82400684BBF /* Project object */;
+	rootObject = 0220EF142C007456002DEC1F /* Project object */;
 }
