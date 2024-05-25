@@ -39,7 +39,7 @@ MyUIC Trinity is solely for iOS completely re-written for Swift using SwiftUI in
 ## Installation
 To run MyUIC Trinity on your local computer, simply execute the following commands:
 
-#### Run as iOS App
+#### iOS App
 To run the app, simply run:
 ```
 git clone https://github.com/aaalgieee/myuic-trinity.git
