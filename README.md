@@ -48,7 +48,7 @@ open -a Xcode myuic-trinity.xcodeproj
 ```
 
 ## Additional Resources
-Wanna contribute? Here are the following resources you can use when working on the MyUIC Neo codebase:
+Wanna contribute? Here are the following resources you can use when working on the MyUIC Trinity codebase:
 - Apple Developer: https://developer.apple.com/documentation/
 - Swift: https://www.swift.org/ & https://developer.apple.com/documentation/swift/
 - SwiftUI: https://developer.apple.com/documentation/swiftui/
