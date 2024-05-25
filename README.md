@@ -23,6 +23,9 @@ Information through online platforms became the norm after the start of the onli
 
 With this, it hopefully solves the dissatisfaction and other problems experienced by the students.
 
+## Why Trinity?
+The name is inspired from the movie called "Matrix" where Neo is the main character and Trinity is the partner of Neo. This simply mean that MyUIC Trinity will be partnered ressemblance of MyUIC Neo carrying on its looks, feel and functionalitiies but eventually MyUIC Trinity will grow and implement new features along the way.
+
 ## Native Application
 MyUIC Neo can also be used as a mobile application both for iOS and Android with the help of [CapacitorJS](https://capacitorjs.com). Unlike the web-only version, the mobile app provides features such as offline notifications, fingerprint authentication, persistent session, and etc.
 
