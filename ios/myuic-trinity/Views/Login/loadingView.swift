@@ -10,14 +10,14 @@ struct LoadingView: View {
     private var apiURL: URL? {
         guard let plistPath = Bundle.main.path(forResource: "APIKeys", ofType: "plist"),
               let plistDict = NSDictionary(contentsOfFile: plistPath),
-              let urlString = plistDict["API_URL"] as? String else {
+              let urlString = plistDict["API_HEALTH"] as? String else {
             return nil
         }
         return URL(string: urlString)
     }
 
     var body: some View {
-        NavigationStack {
+        NavigationView {
             ZStack {
                 if colorScheme == .dark {
                     Color("sysColor")
