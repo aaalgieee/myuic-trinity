@@ -47,3 +47,7 @@ google-services.json
 
 # vite-pwa
 dev-dist
+
+#ios-stuff
+APIKeys.plist
+

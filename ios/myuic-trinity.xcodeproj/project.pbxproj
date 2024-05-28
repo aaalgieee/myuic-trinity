@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021B57A92C062E700042E4FA /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 021B57A82C062E700042E4FA /* APIKeys.plist */; };
 		0220EF202C007456002DEC1F /* myuic_trinityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0220EF1F2C007456002DEC1F /* myuic_trinityApp.swift */; };
 		0220EF222C007456002DEC1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0220EF212C007456002DEC1F /* ContentView.swift */; };
 		0220EF242C007458002DEC1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0220EF232C007458002DEC1F /* Assets.xcassets */; };
 		0220EF272C007458002DEC1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0220EF262C007458002DEC1F /* Preview Assets.xcassets */; };
+		024B49652C05CD080048EAF3 /* loadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024B49642C05CD080048EAF3 /* loadingView.swift */; };
+		024B49682C05DD150048EAF3 /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024B49672C05DD150048EAF3 /* homeView.swift */; };
+		024B496B2C05E8090048EAF3 /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024B496A2C05E8090048EAF3 /* loginView.swift */; };
+		024B496E2C060DDE0048EAF3 /* acclistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024B496D2C060DDE0048EAF3 /* acclistView.swift */; };
+		029A13E52C00794500DFCCC5 /* tabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029A13E42C00794500DFCCC5 /* tabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		021B57A82C062E700042E4FA /* APIKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKeys.plist; sourceTree = "<group>"; };
 		0220EF1C2C007456002DEC1F /* myuic-trinity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myuic-trinity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0220EF1F2C007456002DEC1F /* myuic_trinityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myuic_trinityApp.swift; sourceTree = "<group>"; };
 		0220EF212C007456002DEC1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0220EF232C007458002DEC1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0220EF262C007458002DEC1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		024B49642C05CD080048EAF3 /* loadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadingView.swift; sourceTree = "<group>"; };
+		024B49672C05DD150048EAF3 /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		024B496A2C05E8090048EAF3 /* loginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
+		024B496D2C060DDE0048EAF3 /* acclistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acclistView.swift; sourceTree = "<group>"; };
+		029A13E42C00794500DFCCC5 /* tabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,10 @@
 		0220EF1E2C007456002DEC1F /* myuic-trinity */ = {
 			isa = PBXGroup;
 			children = (
+				021B57A82C062E700042E4FA /* APIKeys.plist */,
 				0220EF1F2C007456002DEC1F /* myuic_trinityApp.swift */,
 				0220EF212C007456002DEC1F /* ContentView.swift */,
+				029A13E62C00794B00DFCCC5 /* Views */,
 				0220EF232C007458002DEC1F /* Assets.xcassets */,
 				0220EF252C007458002DEC1F /* Preview Content */,
 			);
@@ -65,6 +79,50 @@
 				0220EF262C007458002DEC1F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		024B49632C05C3FF0048EAF3 /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				029A13E42C00794500DFCCC5 /* tabBar.swift */,
+			);
+			path = tabBar;
+			sourceTree = "<group>";
+		};
+		024B49662C05DD080048EAF3 /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				024B49672C05DD150048EAF3 /* homeView.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		024B49692C05E7FF0048EAF3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				024B496A2C05E8090048EAF3 /* loginView.swift */,
+				024B496D2C060DDE0048EAF3 /* acclistView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		024B496C2C05E8180048EAF3 /* Splash Loading */ = {
+			isa = PBXGroup;
+			children = (
+				024B49642C05CD080048EAF3 /* loadingView.swift */,
+			);
+			path = "Splash Loading";
+			sourceTree = "<group>";
+		};
+		029A13E62C00794B00DFCCC5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				024B49692C05E7FF0048EAF3 /* Login */,
+				024B49662C05DD080048EAF3 /* TabViews */,
+				024B496C2C05E8180048EAF3 /* Splash Loading */,
+				024B49632C05C3FF0048EAF3 /* tabBar */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0220EF272C007458002DEC1F /* Preview Assets.xcassets in Resources */,
+				021B57A92C062E700042E4FA /* APIKeys.plist in Resources */,
 				0220EF242C007458002DEC1F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +196,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				024B496E2C060DDE0048EAF3 /* acclistView.swift in Sources */,
+				029A13E52C00794500DFCCC5 /* tabBar.swift in Sources */,
+				024B49652C05CD080048EAF3 /* loadingView.swift in Sources */,
 				0220EF222C007456002DEC1F /* ContentView.swift in Sources */,
+				024B49682C05DD150048EAF3 /* homeView.swift in Sources */,
+				024B496B2C05E8090048EAF3 /* loginView.swift in Sources */,
 				0220EF202C007456002DEC1F /* myuic_trinityApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -269,19 +333,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"myuic-trinity/Preview Content\"";
 				DEVELOPMENT_TEAM = A2JKADPAG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "myuic-trinity/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "MyUIC Trinity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,19 +367,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"myuic-trinity/Preview Content\"";
 				DEVELOPMENT_TEAM = A2JKADPAG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "myuic-trinity/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "MyUIC Trinity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
