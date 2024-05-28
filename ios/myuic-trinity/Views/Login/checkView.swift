@@ -1,12 +1,12 @@
 import SwiftUI
 
-struct LoadingView: View {
+struct checkView: View {
     @Environment(\.colorScheme) var colorScheme
     @State private var isAnimating = false
     @State private var isConnected = false
     @State private var isActive = false
 
-    // Load API URL from plist
+    
     private var apiURL: URL? {
         guard let plistPath = Bundle.main.path(forResource: "APIKeys", ofType: "plist"),
               let plistDict = NSDictionary(contentsOfFile: plistPath),
@@ -118,9 +118,9 @@ struct LoadingView: View {
 }
 
 #if DEBUG
-struct LoadingView_Previews: PreviewProvider {
+struct checkView_Previews: PreviewProvider {
     static var previews: some View {
-        LoadingView()
+        checkView()
     }
 }
 #endif

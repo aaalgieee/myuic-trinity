@@ -11,7 +11,7 @@ import SwiftUI
 struct myuic_trinityApp: App {
     var body: some Scene {
         WindowGroup {
-            LoadingView()
+            checkView()
         }
     }
 }

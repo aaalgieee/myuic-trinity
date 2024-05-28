@@ -11,7 +11,7 @@ struct loginView: View {
     @Environment(\.colorScheme) var colorScheme
     @State private var student_id: String = ""
     @State private var student_password: String = ""
-    @State private var isExist = 0
+    @State private var isExist = 1
     var body: some View {
         ZStack{
             
