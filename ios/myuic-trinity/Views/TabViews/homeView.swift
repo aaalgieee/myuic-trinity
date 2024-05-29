@@ -51,29 +51,114 @@ struct homeView: View {
             LinearGradient(gradient: Gradient(colors: gradientColors), startPoint: .top, endPoint: .center)
                 .ignoresSafeArea()
             
-            VStack(alignment: .leading){
-                imageTime
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 100)
-                    .foregroundStyle(colorForCurrentTime())
-                
-                
-                Text(greetingForCurrentTime())
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                
-                Text("Juan!")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                
-                Text("Today is ")
-                    .font(.title2)
-                    .fontWeight(.light)
-                + Text(formattedDate())
-                    .font(.title2)
-                    .fontWeight(.light)
-                
+            ScrollView(.vertical, showsIndicators: false){
+                VStack(alignment: .leading){
+                    imageTime
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 100)
+                        .foregroundStyle(colorForCurrentTime())
+                    
+                    
+                    Text(greetingForCurrentTime())
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                    
+                    Text("Juan!")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                    
+                    Text("Today is ")
+                        .font(.title2)
+                        .fontWeight(.light)
+                    + Text(formattedDate())
+                        .font(.title2)
+                        .fontWeight(.light)
+                    
+                    
+                    ScrollView(.horizontal, showsIndicators: false){
+                        HStack(spacing: 30) {
+                            
+                            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                                VStack {
+                                    Image(systemName: "dollarsign.square")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 50, height: 50)
+                                        .foregroundStyle(Color("pink-light"))
+                                    Text("Finance")
+                                        .foregroundColor(.primary)
+                                }
+                            })
+                            
+                            
+                            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                                VStack {
+                                    Image(systemName: "newspaper")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 50, height: 50)
+                                        .foregroundStyle(Color("pink-light"))
+                                    Text("Clearance")
+                                        .foregroundColor(.primary)
+                                }
+                            })
+                            
+                            
+                            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                                VStack {
+                                    Image(systemName: "book")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 50, height: 50)
+                                        .foregroundStyle(Color("pink-light"))
+                                    Text("Handbook")
+                                        .foregroundColor(.primary)
+                                }
+                            })
+                            
+                            
+                            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                                VStack {
+                                    Image(systemName: "envelope.open")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 50, height: 50)
+                                        .foregroundStyle(Color("pink-light"))
+                                    Text("E-mail")
+                                        .foregroundColor(.primary)
+                                }
+                            })
+                            
+                            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                                VStack {
+                                    Image("classroom")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .foregroundColor(Color("pink-light"))
+                                        .frame(width: 50, height: 50)
+                                    Text("Classroom")
+                                        .foregroundColor(.primary)
+                                }
+                            })
+                            
+                            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                                VStack {
+                                    Image(systemName: "bookmark")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 50, height: 50)
+                                        .foregroundStyle(Color("pink-light"))
+                                    Text("Resources")
+                                        .foregroundColor(.primary)
+                                }
+                            })
+                            
+                        }
+                    }
+                    .padding(.top, 50)
+                }
+                .padding()
             }
         }
         

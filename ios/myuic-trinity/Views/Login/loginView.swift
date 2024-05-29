@@ -11,7 +11,7 @@ struct loginView: View {
     @Environment(\.colorScheme) var colorScheme
     @State private var student_id: String = ""
     @State private var student_password: String = ""
-    @State private var isExist = 1
+    @State private var isExist = 0
     var body: some View {
         ZStack{
             
@@ -56,8 +56,8 @@ struct loginView: View {
                         .padding(12)
                         .background(
                             RoundedRectangle(cornerRadius: 8)
-                                .stroke(Color.gray, lineWidth: 1)
-                                .background(Color(.systemGray6))
+                                .stroke(Color.gray, lineWidth: 2)
+                                
                         )
                     Text("Password")
                         .padding(.top, 15)
@@ -65,8 +65,8 @@ struct loginView: View {
                         .padding(12)
                         .background(
                             RoundedRectangle(cornerRadius: 8)
-                                .stroke(Color.gray, lineWidth: 1)
-                                .background(Color(.systemGray6))
+                                .stroke(Color.gray, lineWidth: 2)
+                                
                         )
                 }
                 Spacer()
