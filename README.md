@@ -2,7 +2,7 @@
   <p><img width="20%" src="./_myuic-neo-web/resources/icon-square.jpg" /></p>
   <h1>MyUIC Trinity</h1>
   <p>An "unofficial", third-party student portal app for UICians.</p>
-  <p><img src="https://drive.google.com/file/d/18lDEpq9y3sc9X09A0WpNyiIjG-zYg3pn/view" /></p>
+  <p><img src="https://github.com/aaalgieee/myuic-trinity/blob/master/ios/resources/myuic-trinity.png?raw=true" /></p>
 
 [Demo](https://myuic.nedpals.xyz) |
 [Twitter Thread](https://twitter.com/npned/status/1508455998234587140?s=20&t=_ApTg0r4DMKFbSM8QWeqnA) |
